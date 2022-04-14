@@ -1,0 +1,24 @@
+package com.motivity.dao;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.motivity.Airlines;
+
+@Repository
+
+public interface AirlineDAO {
+	
+
+	
+
+	
+		 void add(Airlines airlines);
+		 void update(Airlines airlines);
+		 void delete(Airlines airlines);
+         List<Airlines> select();
+	}
+
+
+
