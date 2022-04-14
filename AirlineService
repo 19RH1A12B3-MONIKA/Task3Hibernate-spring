@@ -1,0 +1,13 @@
+package com.motivity.services;
+
+import java.util.List;
+
+import com.motivity.Airlines;
+
+public interface AirlineService {
+	void add(Airlines airline);
+	void update(Airlines airline);
+	void delete(Airlines airline);
+	List<Airlines> select();
+
+}
